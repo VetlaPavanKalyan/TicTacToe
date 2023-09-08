@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Montserrat:wght@300&family=Work+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    padding: 30px;
+    background-color: black;
+}
+
+#home{
+    /* background-color: purple; */
+    padding: 10px 15px;
+    color: white;
+    font-size: 30px;
+    width: 80vw;
+    text-decoration: none;
+}
+
+#contact{
+    /* background-color: purple; */
+    padding: 10px 15px;
+    color: white;
+    font-size: 30px;
+    width: 20vw;
+    text-decoration: none;
+}
+
+
+#resume{
+    /* background-color: purple; */
+    padding: 10px 15px;
+    color: white;
+    font-size: 30px;
+    width: 20vw;
+    text-decoration: none;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    padding: 250px 50px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#download:hover{
+    background-color: white;
+    color: rgb(29, 29, 255);
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#download{
+    background-color: rgb(29, 29, 255);
+    color: white;
+    margin: 85px;
+    padding: 20px;
+    width: 20vw;
+    border-radius: 50px;
+    font-size: 30px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#pointer{
+    padding: 20px;
+}
+
+td{
+    border: 2px solid #333;
+    height: 100px;
+    width: 100px;
+    font-size: 70px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+table{
+    display: flex;
+    border-collapse: collapse;
+    position: relative;
+    justify-content: center;
+    margin: 50px;
+    align-items: center;
+}
+
+table tr:first-child td{
+    border-top: 0;
+}
+
+table tr:last-child td{
+    border-bottom: 0;
+}
+
+table tr td:first-child{
+    border-left: 0;
+}
+
+table tr td:last-child{
+    border-right: 0;
+}
+
+.endgame{
+    position: relative;
+    display: grid;
+    padding: 15px;
+    align-items: center;
+    justify-self: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+
+.rep{
+    position:relative;
+    display: grid;
+    padding: 15px;
+    align-items: center;
+    justify-self: center;
+}
+
+
+#replay{
+    background-color: rgb(29, 29, 255);
+    color: white;
+    width: 15vw;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 30px;
+    justify-self: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+#replay:hover{
+    background-color: white;
+    color: rgb(29, 29, 255);
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+footer {
+    font-family: 'Work Sans', sans-serif;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    padding: 30px;
+}
+
+#intro{
+    position:relative;
+    display: grid;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#intro a {
+    text-decoration: none;
+    color: purple;
+}
