@@ -135,7 +135,7 @@ table tr td:last-child{
 #replay{
     background-color: rgb(29, 29, 255);
     color: white;
-    width: 15vw;
+    width: auto;
     padding: 20px;
     border-radius: 50px;
     font-size: 30px;
@@ -143,6 +143,7 @@ table tr td:last-child{
     font-family: 'Fira Sans', sans-serif;
     font-weight: bold;
     cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 
@@ -177,4 +178,11 @@ footer {
 #intro a {
     text-decoration: none;
     color: purple;
+}
+
+@media (max-width: 768px) {
+    #replay {
+        font-size: 16px; 
+        padding: 8px 16px; 
+    }
 }
