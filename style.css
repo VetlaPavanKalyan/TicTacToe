@@ -152,6 +152,7 @@ table tr td:last-child{
     color: rgb(29, 29, 255);
     padding: 20px;
     font-size: 30px;
+    width: auto;
     font-weight: bold;
 }
 
